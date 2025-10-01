@@ -19,7 +19,7 @@ list_of_files = [
     f"{project_name}/cloud_storage/__init__.py",
     f"{project_name}/cloud_storage/aws_storage.py",
     f"{project_name}/data_access/__init__.py",
-    f"{project_name}/data_access/proj1_data.py",
+    f"{project_name}/data_access/proj_data.py",
     f"{project_name}/constants/__init__.py",
     f"{project_name}/entity/__init__.py",
     f"{project_name}/entity/config_entity.py",
@@ -54,4 +54,4 @@ for filepath in list_of_files:
         with open(filepath, "w") as f:
             pass
     else:
-        print(f"file is already present at: {filepath}")
+        print(f"file is already present at: {filepath}") 
